@@ -1,0 +1,198 @@
+body {
+    font-family: 'Silkscreen', cursive;
+    background: lightslategray;
+}
+
+.header {
+    width: 99.4%;
+    padding: 0.5em 0 0.5em 0.5em;
+}
+
+.logo {
+    width: 50em;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.logo:after {
+    content: "📘";
+}
+
+.textos {
+    width: 99.4%;
+    padding: 0.5em 0 0.5em 0.5em;
+}
+
+.area_entrada_texto {
+    width: 50em;
+    margin: 0.5em;
+    padding: 0.5em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.entrada_texto {
+    width: 30em;
+    padding: 0.5em 0.5em 15em 0.5em;
+    display: block;
+    resize: none;
+    border: none;
+    font-size: 1.5em;
+    overflow: hidden;
+    color: lightsteelblue;
+    background: black;
+    border-radius: 0.5em;
+}
+
+.entrada_texto:focus {
+    outline: none;
+}
+
+.aviso_texto_entrada {
+    width: 30em;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    text-align: center;
+    display: block;
+}
+
+.aviso_texto_entrada:before {
+    content: "⚠";
+    background: lightsteelblue;
+    font-size: 1.2em;
+    padding: 0 0.4em 0 0.4em;
+    border-radius: 1em;
+}
+
+.area_texto_saida {
+    width: 25em;
+    margin: -5em 0.5em 0.5em 0.5em;
+    padding: 0.5em 0.5em 35em 0.5em;
+    display: inline-block;
+    background: #191970;
+    position: absolute;
+    border-radius: 0.5em;
+}
+
+.saida_texto {
+    width: 19.5em;
+    padding: 0.5em 0.5em 24em 0.5em;
+    resize: none;
+    border: none;
+    font-size: 1.5em;
+    overflow: hidden;
+    color: lightsteelblue;
+    background: black;
+    border-radius: 0.5em;
+    position: absolute;
+}
+
+.saida_texto:focus {
+    outline: none;
+}
+
+.copiar_texto {
+    background: whitesmoke;
+    width: 20em;
+    font-weight: bold;
+    padding: 0.5em;
+    margin: 39.5em 5em;
+    display: block;
+    position: absolute;
+    color: steelblue;
+    border-radius: 0.5em;
+    border: none;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.copiar_texto:hover {
+    background: darkgray;
+}
+
+.copiar_texto:active {
+    background: darkslategray;
+}
+
+.aviso_texto_saida {
+    margin: 0.5em 1em 0.5em 0.5em;
+    padding: 0.5em 0.5em 8.4em 0.5em;
+    display: block;
+    text-align: center;
+    position: absolute;
+    background: steelblue;
+    border-radius: 0.5em;
+}
+
+.aviso_texto_saida h2 {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0.5em 0 0.5em 0;
+    color: whitesmoke;
+}
+
+.aviso_texto_saida p {
+    color: whitesmoke;
+}
+
+.footer {
+    width: 99.4%;
+    padding: 0.5em 0 0.5em 0.5em;
+}
+
+.botoes {
+    width: 50em;
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.botao_criptografar {
+    background: steelblue;
+    width: 20em;
+    font-weight: bold;
+    padding: 0.5em;
+    color: whitesmoke;
+    border-radius: 0.5em;
+    border: none;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.botao_criptografar:hover {
+    background: #191970;
+}
+
+.botao_criptografar:active {
+    background: darkslategray;
+}
+
+.botao_descriptografar {
+    background: whitesmoke;
+    width: 20em;
+    font-weight: bold;
+    padding: 0.5em;
+    color: steelblue;
+    border-radius: 0.5em;
+    border: none;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.botao_descriptografar:hover {
+    background: darkgray;
+}
+
+.botao_descriptografar:active {
+    background: darkslategray;
+}
+
+@media screen and (max-width: 480px) {
+
+    .botoes {
+        text-align: left;
+    }
+    .area_texto_saida {
+        margin: 8em 0.5em 0.5em 1em;
+    }   
+}
