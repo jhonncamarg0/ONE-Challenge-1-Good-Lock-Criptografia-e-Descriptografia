@@ -23,7 +23,7 @@ function copiarCodigo() {
     let codigoC = document.getElementById("texto_saida");
     codigoC.select();
     document.execCommand("copy");
-    alert("Copiado!");
+    alert("ℹ️ Copiado!");
     /*
     Swal.fire({
         title: "Copiado!",
@@ -54,7 +54,7 @@ function criptografia() {
         codigo2.innerText = u;
         let clear = document.getElementById("texto_entrada");
         clear.value = "";
-        alert("Criptografado!");
+        alert("ℹ️ Criptografado!");
         /*
         Swal.fire({
             title: "Criptografado!",
@@ -65,7 +65,7 @@ function criptografia() {
         */
     }
     else if (codigo == "") {
-        alert("Texto vazio!" + "<br>" + "Insira algum texto para ser criptografado");
+        alert("ℹ️ Texto vazio! Insira algum texto para ser criptografado");
         /*
         Swal.fire({
             title: "Texto vazio!",
@@ -93,7 +93,7 @@ function descriptografia() {
             codigo2.innerText = u;
             let clear = document.getElementById("texto_entrada");
             clear.value = "";
-            alert("Descriptografado!");
+            alert("ℹ️ Descriptografado!");
             /*
             Swal.fire({
                 title: "Descriptografado!",
@@ -104,7 +104,7 @@ function descriptografia() {
             */
         }
         else {
-            alert("Texto incompatível!" + "<br>" + "Esse texto não foi criptografado pelo Good Lock");
+            alert("ℹ️ Texto incompatível! Esse texto não foi criptografado pelo Good Lock");
             /*
             Swal.fire({
                 title: "Texto incompatível!",
@@ -116,7 +116,7 @@ function descriptografia() {
         }
     }
     else if (codigo == "") {
-        alert("Texto vazio!" + "<br>" + "Insira algum texto para ser criptografado");
+        alert("ℹ️ Texto vazio! Insira algum texto para ser criptografado");
         /*
         Swal.fire({
             title: "Texto vazio!",
