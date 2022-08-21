@@ -5,6 +5,7 @@ let botao_criptografia = document.getElementById("texto_criptografia");
 let botao_descriptografia = document.getElementById("texto_descriptografia");
 let botao_copiar = document.getElementById("texto_copiar");
 let tela = document.getElementById("texto_saida");
+let botao = false;
 
 function mostrarCodigo() {
     let imagem = document.getElementById("texto_aviso_saida");
@@ -15,25 +16,26 @@ function mostrarCodigo() {
     botao_copy.style.display = "block";
 }
 
+function recarregar() {
+    if (botao == true) {
+        location.reload();
+    }
+}
+
 function copiarCodigo() {
     let codigoC = document.getElementById("texto_saida");
     codigoC.select();
     document.execCommand("copy");
-    alert("ℹ️ Copiado!");
-    /*
-    Swal.fire({
-        title: "Copiado!",
-        text: "",
-        icon: "info",
-        confirmButtonText: "Fechar"
-    });
-    */
+    alert("🔑 Copiado! Recarregando a página...");
+    setInterval(recarregar, 3000);
 }
 
 function resetarLimite() {
     let codigoC = document.getElementById("texto_saida");
     codigoC.select();
     document.execCommand("copy");
+    alert("🔑 Copiado! Recarregando a página...");
+    setInterval(recarregar, 3000);
 }
 
 function criptografia() {
@@ -50,26 +52,11 @@ function criptografia() {
         codigo2.innerText = u;
         let clear = document.getElementById("texto_entrada");
         clear.value = "";
-        alert("ℹ️ Criptografado!");
-        /*
-        Swal.fire({
-            title: "Criptografado!",
-            text: "",
-            icon: "info",
-            confirmButtonText: "Fechar"
-        });
-        */
+        alert("🔒 Criptografado!");
+        botao = true;
     }
     else if (codigo == "") {
-        alert("ℹ️ Texto vazio! Insira algum texto para ser criptografado");
-        /*
-        Swal.fire({
-            title: "Texto vazio!",
-            text: "Insira algum texto para ser criptografado",
-            icon: "info",
-            confirmButtonText: "Fechar"
-        });
-        */
+        alert("⚠️ Texto vazio! Insira algum texto para ser criptografado");
     }
 }
 
@@ -89,38 +76,15 @@ function descriptografia() {
             codigo2.innerText = u;
             let clear = document.getElementById("texto_entrada");
             clear.value = "";
-            alert("ℹ️ Descriptografado!");
-            /*
-            Swal.fire({
-                title: "Descriptografado!",
-                text: "",
-                icon: "info",
-                confirmButtonText: "Fechar"
-            });
-            */
+            alert("🔓 Descriptografado!");
+            botao = true;
         }
         else {
-            alert("ℹ️ Texto incompatível! Esse texto não foi criptografado pelo Good Lock");
-            /*
-            Swal.fire({
-                title: "Texto incompatível!",
-                text: "Esse texto não foi criptografado pelo Good Lock",
-                icon: "info",
-                confirmButtonText: "Fechar"
-            });
-            */
+            alert("⚠️ Texto incompatível! Esse texto não foi criptografado pelo Good Lock");
         }
     }
     else if (codigo == "") {
-        alert("ℹ️ Texto vazio! Insira algum texto para ser criptografado");
-        /*
-        Swal.fire({
-            title: "Texto vazio!",
-            text: "Insira algum texto criptografado pelo Good Lock para ser descriptografado",
-            icon: "info",
-            confirmButtonText: "Fechar"
-        });
-        */
+        alert("⚠️ Texto vazio! Insira algum texto para ser criptografado");
     }
 }
 
