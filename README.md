@@ -26,9 +26,9 @@ Nome do projeto inspirado na junção da palavra "lock" ou "fechadura", e da fra
 
 #### Requisitos
 
-##### • Deve codificar/criptografar palavras ou frases apenas com letras minúsculas (caso tenham letras maiúsculas, essas não serão modificadas)
-##### • Não deve codificar/criptografar palavras ou frases com letras com acentos e nem caracteres especiais (nesse caso essas não serão modificadas)
+##### • Deve codificar/decodificar palavras ou frases apenas com letras minúsculas (caso tenham letras maiúsculas, essas não serão modificadas)
+##### • Não deve codificar/decodificar palavras ou frases com letras com acentos e nem caracteres especiais (nesse caso essas não serão modificadas)
 ##### • Deve ser possível converter uma palavra ou frase para a versão criptografada e também retornar uma palavra ou frase criptografada para a versão original
-##### • Não deve ser possível converter uma palavra ou frase para a versão criptografada com o texto vazio
-##### • Não deve ser possível retornar uma palavra ou frase para a versão original que não tenha sido criptografada pelo sistema
+##### • Não deve ser possível converter uma palavra ou frase para a versão criptografada ou descriptografada com o texto vazio
+##### • Não deve ser possível retornar uma palavra ou frase para a versão original que não tenha a criptografia do sistema
 ##### • Deve ser possível copiar a palavra ou frase criptografada ou descriptografada para a área de transferência (recarregando o sistema em seguida)
