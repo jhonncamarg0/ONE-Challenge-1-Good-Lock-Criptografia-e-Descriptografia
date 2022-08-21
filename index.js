@@ -26,16 +26,16 @@ function copiarCodigo() {
     let codigoC = document.getElementById("texto_saida");
     codigoC.select();
     document.execCommand("copy");
-    alert("🔑 Copiado! Recarregando a página...");
-    setInterval(recarregar, 3000);
+    alert("🔑 Copiado! Aperte OK para recarregar a página");
+    setInterval(recarregar, 1000);
 }
 
 function resetarLimite() {
     let codigoC = document.getElementById("texto_saida");
     codigoC.select();
     document.execCommand("copy");
-    alert("🔑 Copiado! Recarregando a página...");
-    setInterval(recarregar, 3000);
+    alert("🔑 Copiado! Aperte OK para recarregar a página");
+    setInterval(recarregar, 1000);
 }
 
 function criptografia() {
