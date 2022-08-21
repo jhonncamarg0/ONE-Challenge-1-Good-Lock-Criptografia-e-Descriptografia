@@ -23,12 +23,15 @@ function copiarCodigo() {
     let codigoC = document.getElementById("texto_saida");
     codigoC.select();
     document.execCommand("copy");
+    alert("Copiado!");
+    /*
     Swal.fire({
         title: "Copiado!",
         text: "",
         icon: "info",
         confirmButtonText: "Fechar"
     });
+    */
 }
 
 /*
@@ -51,20 +54,26 @@ function criptografia() {
         codigo2.innerText = u;
         let clear = document.getElementById("texto_entrada");
         clear.value = "";
+        alert("Criptografado!");
+        /*
         Swal.fire({
             title: "Criptografado!",
             text: "",
             icon: "info",
             confirmButtonText: "Fechar"
         });
+        */
     }
     else if (codigo == "") {
+        alert("Texto vazio!" + "<br>" + "Insira algum texto para ser criptografado");
+        /*
         Swal.fire({
             title: "Texto vazio!",
             text: "Insira algum texto para ser criptografado",
             icon: "info",
             confirmButtonText: "Fechar"
         });
+        */
     }
 }
 
@@ -84,29 +93,38 @@ function descriptografia() {
             codigo2.innerText = u;
             let clear = document.getElementById("texto_entrada");
             clear.value = "";
+            alert("Descriptografado!");
+            /*
             Swal.fire({
                 title: "Descriptografado!",
                 text: "",
                 icon: "info",
                 confirmButtonText: "Fechar"
             });
+            */
         }
         else {
+            alert("Texto incompatível!" + "<br>" + "Esse texto não foi criptografado pelo Good Lock");
+            /*
             Swal.fire({
                 title: "Texto incompatível!",
                 text: "Esse texto não foi criptografado pelo Good Lock",
                 icon: "info",
                 confirmButtonText: "Fechar"
             });
+            */
         }
     }
     else if (codigo == "") {
+        alert("Texto vazio!" + "<br>" + "Insira algum texto para ser criptografado");
+        /*
         Swal.fire({
             title: "Texto vazio!",
             text: "Insira algum texto criptografado pelo Good Lock para ser descriptografado",
             icon: "info",
             confirmButtonText: "Fechar"
         });
+        */
     }
 }
 
