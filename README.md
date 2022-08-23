@@ -41,6 +41,4 @@ Nome do projeto inspirado na junção da palavra "lock" ou "fechadura", e da fra
 
 ### 🏅 Badge conquistada
 
-<div style="display: inline-block">
-  <img align="center" alt="J-ONE-Challenge-1" height="130" width="140" src="https://github.com/jhonncamarg0/oracle-next-education/blob/main/Badges/Challenge1.png">
-</div>
+<img align="center" alt="J-ONE-Challenge-1" height="130" width="140" src="https://github.com/jhonncamarg0/oracle-next-education/blob/main/Badges/Challenge1.png">
