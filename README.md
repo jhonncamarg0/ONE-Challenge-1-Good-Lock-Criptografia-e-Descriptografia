@@ -9,11 +9,11 @@ https://jhonncamarg0.github.io/ONE-Challenge-1-Good-Lock-Criptografia-e-Descript
 
 Codificador e decoficador simples de texto proposto para desenvolvimento pelo programa ONE - Oracle & Alura, como um desafio para colocar meus conhecimentos adquiridos na trilha técnica de iniciante em programação à prova!
 
-Nome do projeto inspirado na junção da palavra "lock" ou "fechadura", e da frase "good luck" ou "boa sorte", como forma irônica de desejar sorte aos criptografadores com sua palavra secreta 🔒
+Nome do projeto inspirado na junção da palavra "lock" ou "fechadura", e da frase "good luck" ou "boa sorte", como forma irônica de desejar sorte aos criptografadores com sua palavra secreta. 🔒
 
-## Front-End
+## Front-end
 
-### Tecnologias Utilizadas
+### Tecnologias utilizadas
 
 #### <img align="center" alt="J-HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"> HTML5
 #### <img align="center" alt="J-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"> CSS3
