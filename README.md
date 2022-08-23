@@ -11,6 +11,8 @@ Codificador e decoficador simples de texto proposto para desenvolvimento pelo pr
 
 Nome do projeto inspirado na junção da palavra "lock" ou "fechadura", e da frase "good luck" ou "boa sorte", como forma irônica de desejar sorte aos criptografadores com sua palavra secreta 🔒
 
+##
+
 ### Front-End
 
 #### Tecnologias Utilizadas
@@ -19,10 +21,14 @@ Nome do projeto inspirado na junção da palavra "lock" ou "fechadura", e da fra
 ##### <img align="center" alt="J-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"> CSS3
 ##### <img align="center" alt="J-JS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"> JavaScript
 
+##
+
 #### 🎯 Funcionalidades
 
 ##### • Codificação/criptografia simples de texto
 ##### • Decodificação/descriptografia de texto criptografado pelo Good Lock
+
+##
 
 #### 🔍 Requisitos
 
