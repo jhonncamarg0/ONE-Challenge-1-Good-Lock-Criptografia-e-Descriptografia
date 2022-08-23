@@ -11,8 +11,6 @@ Codificador e decoficador simples de texto proposto para desenvolvimento pelo pr
 
 Nome do projeto inspirado na junção da palavra "lock" ou "fechadura", e da frase "good luck" ou "boa sorte", como forma irônica de desejar sorte aos criptografadores com sua palavra secreta 🔒
 
-##
-
 ## Front-End
 
 ### Tecnologias Utilizadas
